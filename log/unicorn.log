@@ -1,0 +1,13 @@
+I, [2016-05-16T14:43:05.873912 #21449]  INFO -- : listening on addr=/tmp/unicorn/unicorn.RutenGrabber.sock fd=10
+I, [2016-05-16T14:43:05.874279 #21449]  INFO -- : worker=0 spawning...
+I, [2016-05-16T14:43:05.878035 #21449]  INFO -- : worker=1 spawning...
+I, [2016-05-16T14:43:05.878677 #21449]  INFO -- : master process ready
+I, [2016-05-16T14:43:05.885720 #21452]  INFO -- : worker=0 spawned pid=21452
+I, [2016-05-16T14:43:05.885847 #21452]  INFO -- : Refreshing Gem list
+I, [2016-05-16T14:43:05.887770 #21454]  INFO -- : worker=1 spawned pid=21454
+I, [2016-05-16T14:43:05.887897 #21454]  INFO -- : Refreshing Gem list
+I, [2016-05-16T14:43:08.260140 #21454]  INFO -- : worker=1 ready
+I, [2016-05-16T14:43:08.260570 #21452]  INFO -- : worker=0 ready
+I, [2016-05-16T14:51:31.177822 #21449]  INFO -- : reaped #<Process::Status: pid 21452 exit 0> worker=0
+I, [2016-05-16T14:51:31.177961 #21449]  INFO -- : reaped #<Process::Status: pid 21454 exit 0> worker=1
+I, [2016-05-16T14:51:31.178099 #21449]  INFO -- : master complete
