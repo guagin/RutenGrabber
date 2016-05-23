@@ -1,7 +1,7 @@
 
 class IndexController < ActionController::Base
   def index
-    @posts = Post.find();
+    @posts = Post.all;
   end
 
 

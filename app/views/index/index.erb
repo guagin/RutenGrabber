@@ -1,2 +1,6 @@
 <div>hello world!</div>
-<%= $post %>
+<%= @post.each do |event| %>
+  <%= event.id %>
+  <%= event.tile %>
+  <%= event.context %>
+<% end %>
